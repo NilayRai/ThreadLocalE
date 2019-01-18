@@ -1,9 +1,9 @@
 package com.example.demo;
 
 public class CustomerThread extends Thread {
-int j;
-int h;
-int m;
+	int j;
+	int h;
+	int m;
 	private static LocalThread l = new LocalThread();
 
 	public CustomerThread(String name) {
@@ -26,7 +26,7 @@ int m;
 		CustomerThread c4 = new CustomerThread("CustomerThread-4");
 		CustomerThread c5 = new CustomerThread("CustomerThread-5");
 		CustomerThread c6 = new CustomerThread("CustomerThread-6");
-int k=10;
+		int k = 10;
 		c1.start();
 		c2.start();
 		c3.start();
