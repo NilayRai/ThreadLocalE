@@ -22,7 +22,7 @@ public class CustomerThread extends Thread {
 		CustomerThread c4 = new CustomerThread("CustomerThread-4");
 		CustomerThread c5 = new CustomerThread("CustomerThread-5");
 		CustomerThread c6 = new CustomerThread("CustomerThread-6");
-
+int k=10;
 		c1.start();
 		c2.start();
 		c3.start();
