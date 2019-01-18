@@ -5,6 +5,7 @@ public class LocalThread extends ThreadLocal<Integer> {
 
 	protected Integer initialValue() {
 		int k=12;
+		int f=134;
 		return ++custiD;
 		
 	}
