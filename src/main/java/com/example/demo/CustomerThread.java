@@ -13,11 +13,13 @@ int m;
 	@Override
 	public void run() {
 		for (int i = 0; i < 5; i++) {
+			System.out.println("Hello Java wakeup");
 			System.out.println(Thread.currentThread().getName() + "\t" + "Executing with Customer ID" + "\t" + l.get());
 		}
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Hello India Wakaup");
 		CustomerThread c1 = new CustomerThread("CustomerThread-1");
 		CustomerThread c2 = new CustomerThread("CustomerThread-2");
 		CustomerThread c3 = new CustomerThread("CustomerThread-3");
