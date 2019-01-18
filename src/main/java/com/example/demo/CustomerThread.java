@@ -3,6 +3,7 @@ package com.example.demo;
 public class CustomerThread extends Thread {
 int j;
 int h;
+int m;
 	private static LocalThread l = new LocalThread();
 
 	public CustomerThread(String name) {
