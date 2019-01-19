@@ -8,6 +8,8 @@ public class LocalThread extends ThreadLocal<Integer> {
 		int f=134;
 		return ++custiD;
 		
+		
+		
 	}
 
 }
